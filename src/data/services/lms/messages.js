@@ -3,22 +3,22 @@ import { gradingStatuses } from './constants';
 
 const messages = defineMessages({
   ungraded: {
-    id: 'ora-grading.lms-api.gradingStatusDisplay.ungraded',
+    id: 'learner-dashboard.lms-api.gradingStatusDisplay.ungraded',
     defaultMessage: 'Ungraded',
     description: 'Grading status label for ungraded submission',
   },
   locked: {
-    id: 'ora-grading.lms-api.gradingStatusDisplay.locked',
+    id: 'learner-dashboard.lms-api.gradingStatusDisplay.locked',
     defaultMessage: 'Currently being graded by someone else',
     description: 'Grading status label for locked submission',
   },
   graded: {
-    id: 'ora-grading.lms-api.gradingStatusDisplay.graded',
+    id: 'learner-dashboard.lms-api.gradingStatusDisplay.graded',
     defaultMessage: 'Grading Completed',
     description: 'Grading status label for graded submission',
   },
   inProgress: {
-    id: 'ora-grading.lms-api.gradingStatusDisplay.inProgress',
+    id: 'learner-dashboard.lms-api.gradingStatusDisplay.inProgress',
     defaultMessage: 'You are currently grading this response',
     description: 'Grading status label for in-progress submission',
   },
