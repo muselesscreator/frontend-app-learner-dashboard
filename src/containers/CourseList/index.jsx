@@ -1,11 +1,12 @@
 import React from 'react';
 
 import CourseCard from 'containers/CourseCard';
-import { courseIDs } from 'data/services/lms/fakeData/courses';
 
-export const CourseList = () => (
+export const CourseList = ({ courseIDs }) => (
   <div>
-    {courseIDs.map(id => <CourseCard courseID={id} />)}
+    {courseIDs.map((id) => (
+      <CourseCard courseID={id} />
+    ))}
   </div>
 );
 
