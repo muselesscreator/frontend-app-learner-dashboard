@@ -13,9 +13,10 @@ export const CourseCardMenu = () => (
       alt='Actions dropdown'
     />
     <Dropdown.Menu>
-      <Dropdown.Item href='#/action-1'>Action</Dropdown.Item>
-      <Dropdown.Item href='#/action-2'>Another action</Dropdown.Item>
-      <Dropdown.Item href='#/action-3'>Something else</Dropdown.Item>
+      <Dropdown.Item href='#/action-1'>Unenroll</Dropdown.Item>
+      <Dropdown.Item href='#/action-2'>Email Settings</Dropdown.Item>
+      <Dropdown.Item href='#/action-3'>Share to Facebook</Dropdown.Item>
+      <Dropdown.Item href='#/action-3'>Share to Twitter</Dropdown.Item>
     </Dropdown.Menu>
   </Dropdown>
 );

@@ -6,7 +6,7 @@ export const RelatedProgram = () => {
   const [isOpen, open, close] = useToggle(false);
   return (
     <>
-      <Button variant='tertiary' iconBefore={Program} onClick={open}>
+      <Button variant='tertiary' size="sm" iconBefore={Program} onClick={open}>
         2 Related Program
       </Button>
       <ModalDialog
