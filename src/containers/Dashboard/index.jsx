@@ -7,7 +7,7 @@ import EmptyCourse from '../EmptyCourse';
 
 export const Dashboard = () => {
   return (
-    <div className='d-flex'>
+    <div className='d-flex p-2'>
       {courseIDs.length ? (
         <>
           <CourseList courseIDs={courseIDs} />

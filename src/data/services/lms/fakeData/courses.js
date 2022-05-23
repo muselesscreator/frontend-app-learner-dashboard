@@ -1,6 +1,6 @@
 export const courseIDs = [
-  // 'course-id1',
-  // 'course-id2',
+  'course-id1',
+  'course-id2',
 ];
 export const courseData = {
   [courseIDs[0]]: {
