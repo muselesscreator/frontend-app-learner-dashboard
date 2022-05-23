@@ -1,10 +1,10 @@
 {
-  "name": "@edx/frontend-app-ora-grading",
+  "name": "@edx/frontend-app-learner-dash",
   "version": "0.0.1",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/frontend-app-ora-grading.git"
+    "url": "git+https://github.com/edx/frontend-app-learner-dash.git"
   },
   "scripts": {
     "build": "fedx-scripts webpack",

@@ -3,17 +3,13 @@ import { combineReducers } from 'redux';
 import { StrictDict } from 'utils';
 
 import * as app from './app';
-import * as grading from './grading';
 import * as requests from './requests';
-import * as submissions from './submissions';
 
 export { default as thunkActions } from './thunkActions';
 
 const modules = {
   app,
-  grading,
   requests,
-  submissions,
 };
 
 const moduleProps = (propName) => Object.keys(modules).reduce(
