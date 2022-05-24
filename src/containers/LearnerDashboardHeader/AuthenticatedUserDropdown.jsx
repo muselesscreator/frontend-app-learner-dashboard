@@ -9,12 +9,6 @@ import { Person } from '@edx/paragon/icons';
 import messages from './messages';
 
 function AuthenticatedUserDropdown({ intl, username }) {
-  const dashboardMenuItem = (
-    <Dropdown.Item href={`${getConfig().LMS_BASE_URL}/dashboard`}>
-      {intl.formatMessage(messages.dashboard)}
-    </Dropdown.Item>
-  );
-
   return (
     <>
       <Dropdown className='user-dropdown'>
@@ -25,7 +19,9 @@ function AuthenticatedUserDropdown({ intl, username }) {
           </span>
         </Dropdown.Toggle>
         <Dropdown.Menu className='dropdown-menu-right'>
-          {dashboardMenuItem}
+          <Dropdown.Item href={`${getConfig().LMS_BASE_URL}/dashboard`}>
+            {intl.formatMessage(messages.dashboard)}
+          </Dropdown.Item>{' '}
           <Dropdown.Item href={`${getConfig().LMS_BASE_URL}/u/${username}`}>
             {intl.formatMessage(messages.profile)}
           </Dropdown.Item>
